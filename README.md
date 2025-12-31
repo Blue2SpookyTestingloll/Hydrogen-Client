@@ -33,7 +33,7 @@ Unlike other launchers that focus only on the latest releases, Hydrogen is built
 ### Installation
 1. Download the latest **HydrogenClient.zip** from our [Releases](https://github.com/yourusername/Hydrogen-Client/releases) page.
 2. Extract the folder to your desired location.
-3. Run `Hydrogen.exe`.
+3. Run `Setup.exe`.
 
 ### Custom Branding (Optional)
 To get the full Hydrogen look:
@@ -76,4 +76,5 @@ We welcome developers! If you want to help improve Hydrogen:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
+
 
