@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Hydrogen Client</title>
+    <style>
+        :root {
+            --primary: #0078d7; /* Hydrogen Blue */
+            --bg: #121212;
+            --card: #1e1e1e;
+            --text: #ffffff;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: var(--card);
+            padding: 3rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 400px;
+        }
+
+        h1 { margin-bottom: 0.5rem; color: var(--primary); }
+        p { color: #aaa; margin-bottom: 2rem; }
+
+        .download-btn {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            display: inline-block;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .download-btn:hover {
+            background-color: #005a9e;
+            transform: translateY(-2px);
+        }
+
+        .info {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hydrogen</h1>
+        <p>The next-gen Minecraft launcher. Faster, smoother, and Forge-ready.</p>
+        
+        <a href="HydrogenClient.zip" class="download-btn" download>
+            Download for Windows
+        </a>
+
+        <div class="info">
+            Version 1.0.0 | Requires WebView2 Runtime
+        </div>
+    </div>
+
+</body>
+</html>
